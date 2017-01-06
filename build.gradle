@@ -20,6 +20,12 @@ apply plugin: 'distribution'
 group = 'com.howtodoinjava.jersey'
 version = '0.0.1-SNAPSHOT'
 
+
+gretty {
+    port = 9091
+    contextPath = "/"
+}
+
 repositories {
      maven { url "http://download.java.net/maven/2/" }
      maven { url "http://repo.maven.apache.org/maven2" }
